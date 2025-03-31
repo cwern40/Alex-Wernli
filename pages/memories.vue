@@ -1,7 +1,9 @@
 <template>
   <UContainer>
-    <h1>Photos</h1>
+    <h1>Memories</h1>
   </UContainer>
 </template>
 
 <script setup></script>
+
+<style lang="scss" scoped></style>

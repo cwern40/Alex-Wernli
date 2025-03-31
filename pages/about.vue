@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <UContainer>
     <h1>About</h1>
-  </div>
+  </UContainer>
 </template>
 
 <script setup></script>
