@@ -6,7 +6,7 @@
         v-slot="{ item }"
         class="max-w-[100vh] mx-auto"
         :items="album.photos"
-        :ui="{ item: 'basis-1/3' }"
+        :ui="{ item: 'basis-1/2 sm:basis-1/3' }"
         loop
         :auto-scroll="{ startDelay: 1000 * (index + 1), stopOnInteraction: false }"
       >
@@ -19,6 +19,6 @@
 <script setup>
 const open = ref(false);
 const { data: albums } = await useAsyncData('albums', () => {
-  return queryCollection('albums').all();
+  return queryCollection('albums').order('order', 'ASC').all();
 });
 </script>

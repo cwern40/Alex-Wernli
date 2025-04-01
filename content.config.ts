@@ -8,7 +8,18 @@ export default defineContentConfig({
       schema: z.object({
         title: z.string(),
         url: z.string(),
+        order: z.number(),
         photos: z.array(z.string()),
+      }),
+    }),
+    memories: defineCollection({
+      type: 'data',
+      source: 'memories/**.json',
+      schema: z.object({
+        author: z.string(),
+        relationship: z.string(),
+        order: z.number(),
+        paragraphs: z.array(z.string()),
       }),
     }),
   },
