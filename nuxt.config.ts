@@ -23,7 +23,7 @@ export default defineNuxtConfig({
     },
   },
   nodemailer: {
-    from: '"John Doe" <john@doe.com>',
+    from: '"Alex Wernli Memorial Site" <contact@alexwernlimemorial.com>',
     host: 'smtp.sendgrid.net',
     port: 587,
     secure: false,

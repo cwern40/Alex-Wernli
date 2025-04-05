@@ -11,7 +11,7 @@
         >send us an email</ULink
       >
     </h2>
-    <!-- <UForm :validate="validate" :state="state" class="space-y-4 w-[600px] max-w-full mx-auto my-5" @submit="onSubmit">
+    <UForm :validate="validate" :state="state" class="space-y-4 w-[600px] max-w-full mx-auto my-5" @submit="onSubmit">
       <UFormField label="Name" name="name" required>
         <UInput v-model="state.name" placeholder="Enter your name" variant="soft" class="w-full" />
       </UFormField>
@@ -60,7 +60,7 @@
         </div>
       </UFormField>
       <UButton type="submit" class="block w-full mt-8">Submit</UButton>
-    </UForm> -->
+    </UForm>
   </UContainer>
 </template>
 
@@ -141,12 +141,8 @@ async function onSubmit() {
   $fetch('/send-email', {
     method: 'POST',
     body: formData,
-    // headers: {
-    //   'Content-Type': 'multipart/form-data',
-    // },
   })
     .then((response) => {
-      console.log('response', response);
       if (response.success) {
         toast.add({ title: 'Success', description: 'Your message has been sent!', color: 'success' });
         state.name = '';
