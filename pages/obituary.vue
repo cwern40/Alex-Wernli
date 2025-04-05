@@ -34,6 +34,8 @@
     <ULink
       to="https://www.legacy.com/us/obituaries/saltlaketribune/name/alexander-wernli-obituary?id=25736731"
       target="_blank"
+      active-class="font-bold"
+      inactive-class="text-burnt-orange-600 hover:text-burnt-orange-700"
     >
       View Obituary on Legacy.com</ULink
     >

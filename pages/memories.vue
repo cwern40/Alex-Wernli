@@ -11,5 +11,4 @@
 const { data: memories } = await useAsyncData('memories', () => {
   return queryCollection('memories').order('order', 'ASC').all();
 });
-console.log('memories', memories.value);
 </script>

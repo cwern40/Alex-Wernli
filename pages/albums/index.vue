@@ -1,7 +1,8 @@
 <template>
   <UContainer class="py-4">
+    <h1 class="text-center text-3xl font-bold my-4">Albums</h1>
     <NuxtLink v-for="(album, index) in albums" :key="album.url" class="mb-8" :to="`/albums/${album.url}`">
-      <h2 class="my-4 text-center">{{ album.title }}</h2>
+      <h2 class="my-4 font-bold text-xl text-center">{{ album.title }}</h2>
       <UCarousel
         v-slot="{ item }"
         class="max-w-[100vh] mx-auto"
