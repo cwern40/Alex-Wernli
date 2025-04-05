@@ -11,13 +11,4 @@
 const { data: memories } = await useAsyncData('memories', () => {
   return queryCollection('memories').order('order', 'ASC').all();
 });
-console.log('memories', memories.value);
 </script>
-<style scoped>
-.masonry {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-auto-rows: 10px;
-  gap: 20px;
-}
-</style>

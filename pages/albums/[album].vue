@@ -1,11 +1,12 @@
 <template>
   <UContainer>
     <UBreadcrumb :items="breadcrumbs" class="my-4" />
-    <section class="flex flex-wrap justify-center gap-2 mb-12">
+    <section class="columns-2 md:columns-3 lg:columns-4 gap-2 space-y-2 mx-auto w-[fit-content] mb-12">
       <NuxtImg
         v-for="(img, index) of album.photos"
         :src="img"
-        class="rounded-lg cursor-pointer w-[180px] h-[180px] sm:w-[285px] sm:h-[285px] object-cover"
+        class="rounded-lg cursor-pointer break-inside-avoid"
+        sizes="180px sm:285px"
         loading="lazy"
         @click="
           activeIndex = index;

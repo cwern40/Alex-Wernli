@@ -7,7 +7,7 @@
 </template>
 <script setup>
 definePageMeta({
-  layout: false,
+  layout: 'no-header',
 });
 const img = useImage();
 
