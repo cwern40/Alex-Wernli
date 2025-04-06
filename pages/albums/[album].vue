@@ -4,7 +4,9 @@
     <section class="columns-2 md:columns-3 lg:columns-4 gap-2 space-y-2 mx-auto w-[fit-content] mb-12">
       <NuxtImg
         v-for="(img, index) of album.photos"
-        :src="img"
+        :src="img.src"
+        :alt="img.alt"
+        :key="img.src"
         class="rounded-lg cursor-pointer break-inside-avoid"
         sizes="180px sm:285px"
         loading="lazy"
@@ -34,16 +36,17 @@
           v-slot="{ item }"
           :items="album.photos"
           arrows
-          dots
           :prev="{ color: 'primary' }"
           :next="{ color: 'primary' }"
           :startIndex="activeIndex"
-          :ui="{
-            dot: 'w-6 h-1',
-          }"
           class="max-h-[100vh] max-w-full"
         >
-          <NuxtImg :src="item" class="rounded-lg max-w-[90vw] max-h-[85vh] object-contain m-auto" loading="lazy" />
+          <NuxtImg
+            :src="item.src"
+            :alt="item.alt"
+            class="rounded-lg max-w-[90vw] max-h-[85vh] object-contain m-auto"
+            loading="lazy"
+          />
         </UCarousel>
       </UContainer>
     </section>

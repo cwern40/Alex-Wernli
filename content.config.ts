@@ -9,7 +9,12 @@ export default defineContentConfig({
         title: z.string(),
         url: z.string(),
         order: z.number(),
-        photos: z.array(z.string()),
+        photos: z.array(
+          z.object({
+            src: z.string(),
+            alt: z.string(),
+          }),
+        ),
       }),
     }),
     memories: defineCollection({

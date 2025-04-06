@@ -1,6 +1,6 @@
 <template>
-  <UContainer>
-    <h1 class="text-center text-3xl font-bold my-4">Contact Us</h1>
+  <UContainer class="pb-10">
+    <h1 class="text-center text-3xl font-bold my-8">Contact Us</h1>
     <h2 class="w-[600px] max-w-full mx-auto">
       We'd love to hear your memories! Please click on this link to
       <ULink
@@ -11,7 +11,13 @@
         >send us an email</ULink
       >
     </h2>
-    <UForm :validate="validate" :state="state" class="space-y-4 w-[600px] max-w-full mx-auto my-5" @submit="onSubmit">
+    <UForm
+      :disabled="loading"
+      :validate="validate"
+      :state="state"
+      class="space-y-4 w-[600px] max-w-full mx-auto my-5"
+      @submit="onSubmit"
+    >
       <UFormField label="Name" name="name" required>
         <UInput v-model="state.name" placeholder="Enter your name" variant="soft" class="w-full" />
       </UFormField>
@@ -44,9 +50,9 @@
             :key="file.file.name + index"
             class="flex flex-col items-center gap-2 relative"
           >
-            <div class="w-[100px] h-[100px] flex flex-col items-center justify-center overflow-hidden">
+            <div class="w-[100px] h-[100px] flex flex-col items-center justify-center overflow-hidden rounded-md">
               <Icon v-if="file.preview.startsWith('tabler')" :name="file.preview" size="80px" />
-              <NuxtImg v-else :src="file.preview" alt="preview" class="rounded-md" />
+              <NuxtImg v-else :src="file.preview" width="100" height="100" alt="preview" class="rounded-md" />
             </div>
             <span class="text-[10px] text-gray-600">{{ file.file.name }}</span>
             <span class="text-[10px] text-gray-600">{{ fileSize(file.file.size) }}</span>
@@ -59,12 +65,13 @@
           </div>
         </div>
       </UFormField>
-      <UButton type="submit" class="block w-full mt-8">Submit</UButton>
+      <UButton type="submit" :loading="loading" class="block w-full mt-8">Submit</UButton>
     </UForm>
   </UContainer>
 </template>
 
 <script setup>
+const loading = ref(false);
 const state = reactive({
   name: '',
   email: '',
@@ -127,6 +134,7 @@ function handleFileChange(event) {
 
 const toast = useToast();
 async function onSubmit() {
+  loading.value = true;
   let formData = new FormData();
   formData.append('name', state.name);
   if (state.email) {
@@ -167,6 +175,9 @@ async function onSubmit() {
           'There was an error sending your message. Please try again later or click on the "send us an email" link above.',
         color: 'error',
       });
+    })
+    .finally(() => {
+      loading.value = false;
     });
 }
 </script>
