@@ -1,28 +1,183 @@
 {
   "title": "Childhood",
   "url": "childhood",
-  "order": 1,
+  "order": 0,
   "photos": [
-    "/img/Alex and Nicole Christmas.jpg",
-    "/img/Alex and Nicole Hallway.jpg",
-    "/img/Alex Baby Sleeping.jpg",
-    "/img/Alex Basketball.jpg",
-    "/img/Alex Birthday Cake.jpg",
-    "/img/Alex birthday money.jpg",
-    "/img/Alex Chris Couch.jpg",
-    "/img/Alex Chris Holding Nicole.jpg",
-    "/img/Alex Chris Nicole Pyramid.jpg",
-    "/img/Alex Chris Sleeping.jpg",
-    "/img/Alex Dogs.jpg",
-    "/img/Alex Flexing.jpg",
-    "/img/Alex Holding Nicole.jpg",
-    "/img/Alex Nicole Piggyback.jpg",
-    "/img/Alex Nicole Racecar.jpg",
-    "/img/Alex Pirate.jpg",
-    "/img/Alex Racecar.jpg",
-    "/img/Alex Skateboard.jpg",
-    "/img/Alex Snorkel.jpg",
-    "/img/Alex Toddler Arms Up.jpg",
-    "/img/Alex Trike.jpg"
+    {
+      "src": "/img/Childhood/Alex_baby_pic.jpg",
+      "alt": "Alex's baby picture"
+    },
+    {
+      "src": "/img/Childhood/Alex and Nicole Christmas.jpg",
+      "alt": "Alex and Nicole Christmas"
+    },
+    {
+      "src": "/img/Childhood/Alex and Nicole Hallway.jpg",
+      "alt": "Alex and Nicole crawling in the hallway"
+    },
+    {
+      "src": "/img/Childhood/Alex and Nicole Playing.jpg",
+      "alt": "Alex and Nicole playing on the floor"
+    },
+    {
+      "src": "/img/Childhood/Alex Baby Sleeping.jpg",
+      "alt": "Alex sleeping on the ground as a baby"
+    },
+    {
+      "src": "/img/Childhood/Alex Basketball.jpg",
+      "alt": "Alex playing basketball in the driveway"
+    },
+    {
+      "src": "img/Childhood/Alex birthday money.jpg",
+      "alt": "Alex holding money"
+    },
+    {
+      "src": "img/Childhood/Alex Chris Couch.jpg",
+      "alt": "Alex and Chris sitting on the couch"
+    },
+    {
+      "src": "img/Childhood/Alex Chris Holding Nicole.jpg",
+      "alt": "Alex and Chris holding Nicole"
+    },
+    {
+      "src": "img/Childhood/Alex Chris Nicole Pyramid.jpg",
+      "alt": "Alex, Chris, and Nicole in a pyramid"
+    },
+    {
+      "src": "img/Childhood/Alex Chris Sleeping.jpg",
+      "alt": "Alex and Chris sleeping on the couch"
+    },
+    {
+      "src": "img/Childhood/Alex Dogs.jpg",
+      "alt": "Alex laying down with puppies"
+    },
+    {
+      "src": "img/Childhood/Alex Holding Nicole.jpg",
+      "alt": "Alex sitting on the ground holding Nicole"
+    },
+    {
+      "src": "img/Childhood/Alex Nicole Piggyback.jpg",
+      "alt": "Alex giving Nicole a piggyback ride"
+    },
+    {
+      "src": "img/Childhood/Alex Nicole Racecar.jpg",
+      "alt": "Alex and Nicole driving a racecar"
+    },
+    {
+      "src": "img/Childhood/Alex Pirate.jpg",
+      "alt": "Alex in a Pirate costume"
+    },
+    {
+      "src": "img/Childhood/Alex Racecar.jpg",
+      "alt": "Alex driving a racecar"
+    },
+    {
+      "src": "img/Childhood/Alex Snorkel.jpg",
+      "alt": "Alex wearing a snorkel mask"
+    },
+    {
+      "src": "img/Childhood/Alex Toddler Arms Up.jpg",
+      "alt": "Alex holding his arms up as a toddler"
+    },
+    {
+      "src": "img/Childhood/Alex Trike.jpg",
+      "alt": "Alex riding a tricycle"
+    },
+    {
+      "src": "img/Childhood/ALEX_4__.JPG",
+      "alt": "Alex standing on a trailer"
+    },
+    {
+      "src": "img/Childhood/ALEX_194.JPG",
+      "alt": "Alex shirtless in the neighbors driveway"
+    },
+    {
+      "src": "img/Childhood/ALEX_202.JPG",
+      "alt": "Alex wearing a red shirt"
+    },
+    {
+      "src": "img/Childhood/ALEX_A18.JPG",
+      "alt": "Alex in a corn on the cob costume"
+    },
+    {
+      "src": "img/Childhood/ALEX_BD5.JPG",
+      "alt": "Alex holding a baseball birthday cake with Landon"
+    },
+    {
+      "src": "img/Childhood/ALEX_BD7.JPG",
+      "alt": "Alex holding an ocean birthday cake"
+    },
+    {
+      "src": "img/Childhood/ALEX_EA2.JPG",
+      "alt": "Alex on Easter"
+    },
+    {
+      "src": "img/Childhood/ALEX_IN_.JPG",
+      "alt": "Alex on the back of a boat"
+    },
+    {
+      "src": "img/Childhood/ALEX_JU5.JPG",
+      "alt": "Alex wearing a blue nose"
+    },
+    {
+      "src": "img/Childhood/ALEX_JU7.JPG",
+      "alt": "Alex holding an 'AL' birthday cake"
+    },
+    {
+      "src": "img/Childhood/ALEX_MA5.JPG",
+      "alt": "Alex at school with a cowboy hat"
+    },
+    {
+      "src": "img/Childhood/ALEX_NI5.JPG",
+      "alt": "Alex with Nicole and AJ"
+    },
+    {
+      "src": "img/Childhood/ALEX_NI7.JPG",
+      "alt": "Alex with Annd and Chaz on their birthday"
+    },
+    {
+      "src": "img/Childhood/ALEX_SU2.JPG",
+      "alt": "Alex holding his baseball birthday cake"
+    },
+    {
+      "src": "img/Childhood/ALEX_SUM.JPG",
+      "alt": "Alex flexing in the driveway"
+    },
+    {
+      "src": "img/Childhood/ALEX_W19.JPG",
+      "alt": "Alex playing in a big pot as a toddler"
+    },
+    {
+      "src": "img/Childhood/ALEX_W30.JPG",
+      "alt": "Alex asleep at a high chair"
+    },
+    {
+      "src": "img/Childhood/ALEXS_B3.JPG",
+      "alt": "Alex with a rocketship birthday cake"
+    },
+    {
+      "src": "img/Childhood/ALEXS_B4.JPG",
+      "alt": "Alex and Chris with a birthday cake"
+    },
+    {
+      "src": "img/Childhood/ALEXS_BD.JPG",
+      "alt": "Alex with a rocketship birthday cake (2)"
+    },
+    {
+      "src": "img/Childhood/Copy of WERNLI13.JPG",
+      "alt": "Anna, Chris, Alex, and Nicole on Easter"
+    },
+    {
+      "src": "img/Childhood/DINO_LA2.JPG",
+      "alt": "Alex and friends at Dinosaur Land"
+    },
+    {
+      "src": "img/Childhood/FAMILY_4.JPG",
+      "alt": "Alex standing on a rock by a waterfall"
+    },
+    {
+      "src": "img/Childhood/JULY_293.JPG",
+      "alt": "Alex eating pizza"
+    }
   ]
 }

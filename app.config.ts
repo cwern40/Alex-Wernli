@@ -12,8 +12,12 @@ export default defineAppConfig({
     navigationMenu: {
       variants: {
         active: {
+          true: {
+            childLink: 'bg-burnt-orange-500 text-white',
+          },
           false: {
             link: 'text-white',
+            childLink: ['hover:bg-burnt-orange-500/50 text-(--ui-text) hover:text-white', 'transition-colors'],
           },
         },
       },
