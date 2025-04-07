@@ -15,7 +15,6 @@ export default defineEventHandler(async (event) => {
   if (form.has('attachements[]')) {
     params.attachments = await Promise.all(
       form.getAll('attachements[]').map(async (file) => {
-        console.log('file', file);
         return {
           filename: file.name,
           content: Buffer.from(await file.arrayBuffer()),

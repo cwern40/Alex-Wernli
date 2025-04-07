@@ -69,8 +69,8 @@ const items = ref([
     class: 'text-xl sm:text-base my-4 sm:my-0',
   },
   {
-    label: 'About',
-    to: '/about',
+    label: 'Life Story',
+    to: '/life-story',
     class: 'text-xl sm:text-base my-4 sm:my-0',
     onSelect: () => {
       menuOpen.value = false;
