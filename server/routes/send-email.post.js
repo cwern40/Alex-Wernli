@@ -1,7 +1,6 @@
 export default defineEventHandler(async (event) => {
   const form = await readFormData(event);
   const { sendMail } = useNodeMailer();
-  console.log('Sending email with body:', form);
 
   const params = {
     to: 'chris.wernli40@gmail.com',
