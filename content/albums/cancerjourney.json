@@ -1,0 +1,19 @@
+{
+  "title": "Cancer Journey",
+  "url": "cancer-journey",
+  "order": 6,
+  "photos": [
+    {
+      "src": "/img/Cancer Journey/Alex_16_hospital_bday.jpg",
+      "alt": "Alex's hospital board with birthday wishes from the staff"
+    },
+    {
+      "src": "/img/Cancer Journey/IMG_0316_3.JPG",
+      "alt": "16 on Alex's hospital room door"
+    },
+    {
+      "src": "/img/Cancer Journey/Alex_16_hospital_bday.jpg",
+      "alt": "Alex in his hospital bed"
+    }
+  ]
+}
