@@ -49,7 +49,7 @@ const pageContent = [
     title: 'Brain Hemorrhage',
     imgSrc: 'img/Aneurysm/DSCN0176.JPG',
     imgAlt: 'Alex smiling sitting on the couch at home',
-    text: "The surgery was a success. The doctor got permission to publish his case. Ales was so excited that he was going to be published until he was informed that his name wouldn't be mentioned because he was a minor. He felt jipped. Six months later, when he was 14, he suffered a brain hemorrhage. He actually needed to be life flighted and the doctors didn't think that Alex was going to make it out of this one without brain damage, but he proved them wrong.",
+    text: "The surgery was a success. The doctor got permission to publish his case. Alex was so excited that he was going to be published until he was informed that his name wouldn't be mentioned because he was a minor. He felt jipped. Six months later, when he was 14, he suffered a brain hemorrhage. He actually needed to be life flighted and the doctors didn't think that Alex was going to make it out of this one without brain damage, but he proved them wrong.",
   },
   {
     title: 'Good Year',
@@ -60,8 +60,32 @@ const pageContent = [
   {
     title: 'Diagnosis',
     imgSrc: '/img/Cancer Journey/Alex_16_hospital_bday.jpg',
-    imgAlt: "Alex's hospital board with birthday wishes from the staff",
+    imgAlt: 'Alex and Jacob',
     text: 'Alex would start to slur his speech, and he had a little bit of double vision and had a staggered walk. One time, he mentioned to Mom that he had "forgotten how to swallow". Mom knew that something was wrong, but the doctors couldn\'t find anything. After a persistent mother and several scans later, they found it. On his 16th birthday, Ales was diagnosed with a brain stem tumor called diffuse intrinsic pontine glioma (DIPG).',
+  },
+  {
+    title: 'Eagle Project',
+    imgSrc: '/img/Teenager/IMG_0345.JPG',
+    imgAlt: "Connor and Alex cutting wood for Alex's eagle project",
+    text: "We were told that most kids that have this cancer live fore about a year. Well, what can we say. Alex is unique and this wasn't the case. He filled our lives with memories and miracles. There was a ton of support for Alex. It was overwhelming to watch. He started radiation right away and he said that it was a piece of cake compared to the surgery, he just felt tired. During his radiation treatments Alex finished his eagle project.",
+  },
+  {
+    title: 'Make A Wish',
+    imgSrc: '/img/Make A Wish/IMG_0784.JPG',
+    imgAlt: 'Alex holding his Make A Wish star',
+    text: 'In fall of 2008, through Make A Wish, Alex was able to receive a theater room. He had a ceremony where he raised his star with the saying "Never Give Up." That became the family motto. He wasn\'t a big gamer or movie watcher but he wanted something that everyone could enjoy and that would last. Around this same time he also started chemotherapy.',
+  },
+  {
+    title: 'Friends leaving on a mission',
+    imgSrc: '/img/Make A Wish/IMG_0784.JPG',
+    imgAlt: 'Alex holding his Make A Wish star',
+    text: "In May of 2009, Chris went on his mission to Guatemala. This is when Alex started faithfully emailing weekly letters and jokes to all the missionaries he knew. Even if he was in the hospital he would have to have his emails written. As it got harder for him to move his hands, he enlisted Nicole's help writing these emails. Alex was persistent and would not go to bed until he got Nicole to help him with his emails.",
+  },
+  {
+    title: 'Make A Wish',
+    imgSrc: '/img/Texas Trip/IMG_4201.JPG',
+    imgAlt: 'Alex holding his Make A Wish star',
+    text: 'In November of 2009, thanks to his aunt Terri and JetBlue, he had the chance to go to Texas, meet the team, and get a tour of the facility. During the team practice Colt McCoy took him in to break the huddle. He had a constant smile on this trip.',
   },
 ];
 
