@@ -41,7 +41,7 @@
           :startIndex="activeIndex"
           class="max-h-[100vh] max-w-full"
         >
-          <NuxtImg
+          <img
             :src="item.src"
             :alt="item.alt"
             class="rounded-lg max-w-[90vw] max-h-[85vh] object-contain m-auto"
