@@ -11,4 +11,18 @@
 const { data: memories } = await useAsyncData('memories', () => {
   return queryCollection('memories').order('order', 'ASC').all();
 });
+
+if (import.meta.server) {
+  useSeoMeta({
+    description: "Here's a collection of memories from Alex's friends and family.",
+    ogDescription: "Here's a collection of memories from Alex's friends and family.",
+    ogImage: '/img/Teenager/Alex_obituary.jpg',
+    url: 'https://alexwernli.com/memories',
+  });
+}
+
+useSeoMeta({
+  title: 'Memories of Alex Wernli',
+  ogtitle: 'Memories of Alex Wernli',
+});
 </script>

@@ -181,4 +181,18 @@ async function onSubmit() {
       loading.value = false;
     });
 }
+
+if (import.meta.server) {
+  useSeoMeta({
+    description: "Share your memories of Alex Wernli with us. We'd love to hear from you!",
+    ogDescription: "Share your memories of Alex Wernli with us. We'd love to hear from you!",
+    ogImage: '/img/Teenager/Alex_obituary.jpg',
+    url: 'https://alexwernli.com/share-a-memory',
+  });
+}
+
+useSeoMeta({
+  title: 'Share Your Memories',
+  ogtitle: 'Share Your Memories',
+});
 </script>

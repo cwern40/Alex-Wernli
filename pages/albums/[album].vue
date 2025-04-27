@@ -78,4 +78,18 @@ watch(open, (newValue) => {
     document.body.style.overflow = ''; // Restore scrolling
   }
 });
+
+if (import.meta.server) {
+  useSeoMeta({
+    description: 'Explore the photo albums of Alex Wernli, showcasing his life and memories.',
+    ogDescription: 'Explore the photo albums of Alex Wernli, showcasing his life and memories.',
+  });
+}
+
+useSeoMeta({
+  title: () => album.value.title,
+  ogtitle: () => album.value.title,
+  ogImage: () => album.value.photos[0].src,
+  url: () => `https://alexwernli.com/albums/${route.params.album}`,
+});
 </script>

@@ -22,4 +22,18 @@ const open = ref(false);
 const { data: albums } = await useAsyncData('albums', () => {
   return queryCollection('albums').order('order', 'ASC').all();
 });
+
+if (import.meta.server) {
+  useSeoMeta({
+    description: 'Explore the photo albums of Alex Wernli, showcasing his life and memories.',
+    ogDescription: 'Explore the photo albums of Alex Wernli, showcasing his life and memories.',
+    ogImage: '/img/Teenager/Alex_obituary.jpg',
+    url: 'https://alexwernli.com/albums',
+  });
+}
+
+useSeoMeta({
+  title: 'Photo Albums of Alex Wernli',
+  ogtitle: 'Photo Albums of Alex Wernli',
+});
 </script>
