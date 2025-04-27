@@ -1,5 +1,5 @@
 <template>
-  <header class="flex justify-between items-center p-4 bg-burnt-orange-500">
+  <header class="flex justify-between items-center py-4 px-4 sm:px-8 bg-burnt-orange-500">
     <USlideover v-model:open="menuOpen" side="left" class="block sm:hidden">
       <UButton
         icon="ic:round-menu"
@@ -12,7 +12,9 @@
       <template #content>
         <div class="bg-burnt-orange-500 h-full p-8 flex flex-col items-center">
           <div class="flex justify-between items-center w-full mb-4">
-            <div class="w-[36px]"></div>
+            <ULink to="/albums/texas-trip" @click="menuOpen = false">
+              <NuxtImg src="/texas-longhorns-2-logo-black-and-white.png" alt="Logo" height="30" width="30" />
+            </ULink>
             <p class="text-white font-bold text-2xl">AW</p>
             <UIcon
               name="weui:close2-outlined"
@@ -31,9 +33,14 @@
         </div>
       </template>
     </USlideover>
-    <p class="text-white font-bold text-2xl">AW</p>
+    <ULink to="/albums/texas-trip" class="hidden sm:block">
+      <NuxtImg src="/texas-longhorns-2-logo-black-and-white.png" alt="Logo" height="30" width="30" />
+    </ULink>
+    <p class="text-white font-bold text-2xl block sm:hidden">AW</p>
     <UNavigationMenu color="neutral" :items="items" orientation="horizontal" class="gap-4 hidden sm:block" />
-    <div class="w-10"></div>
+    <ULink to="/albums/texas-trip">
+      <NuxtImg src="/texas-longhorns-2-logo-black-and-white.png" alt="Logo" height="30" width="30" />
+    </ULink>
   </header>
 </template>
 
@@ -69,8 +76,8 @@ const items = ref([
     class: 'text-xl sm:text-base my-4 sm:my-0',
   },
   {
-    label: 'About',
-    to: '/about',
+    label: 'Life Story',
+    to: '/life-story',
     class: 'text-xl sm:text-base my-4 sm:my-0',
     onSelect: () => {
       menuOpen.value = false;

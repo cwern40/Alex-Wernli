@@ -10,6 +10,7 @@
         inactive-class="text-burnt-orange-600 hover:text-burnt-orange-700"
         >send us an email</ULink
       >
+      or fill out the form below.
     </h2>
     <UForm
       :disabled="loading"
