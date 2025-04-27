@@ -42,6 +42,18 @@
   </UContainer>
 </template>
 
-<script setup></script>
+<script setup>
+if (import.meta.server) {
+  useSeoMeta({
+    description: 'The obituary of Alex Wernli, who passed away on March 12, 2012.',
+    ogDescription: 'The obituary of Alex Wernli, who passed away on March 12, 2012.',
+    ogImage: '/img/Teenager/Alex_obituary.jpg',
+    url: 'https://alexwernli.com/obituary',
+  });
+}
 
-<style scoped></style>
+useSeoMeta({
+  title: "Alex Wernli's Obituary",
+  ogtitle: "Alex Wernli's Obituary",
+});
+</script>

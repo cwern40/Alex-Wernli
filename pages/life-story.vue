@@ -148,4 +148,20 @@ onMounted(() => {
   const elements = document.querySelectorAll('.story-animation');
   elements.forEach((el) => observer.observe(el));
 });
+
+if (import.meta.server) {
+  useSeoMeta({
+    description:
+      "Alex had a positive attitude and amazing sense of humor through his many trials. Here's his life story.",
+    ogDescription:
+      "Alex had a positive attitude and amazing sense of humor through his many trials. Here's his life story.",
+    ogImage: '/img/Teenager/Alex_obituary.jpg',
+    url: 'https://alexwernli.com/life-story',
+  });
+}
+
+useSeoMeta({
+  title: "Alex's Life Story",
+  ogtitle: "Alex's Life Story",
+});
 </script>

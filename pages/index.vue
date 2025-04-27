@@ -12,4 +12,15 @@
 definePageMeta({
   layout: 'no-header',
 });
+
+if (import.meta.server) {
+  useSeoMeta({
+    description:
+      'Alex Wernli was born June 1st 1992 and passed away March 12th 2012 at the age of 19 from brain cancer (DIPG). This is a memorial for him.',
+    ogDescription:
+      'Alex Wernli was born June 1st 1992 and passed away March 12th 2012 at the age of 19 from brain cancer (DIPG). This is a memorial for him.',
+    ogImage: '/img/Teenager/Alex_obituary.jpg',
+    url: 'https://alexwernli.com',
+  });
+}
 </script>
