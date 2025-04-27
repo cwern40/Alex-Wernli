@@ -1,5 +1,10 @@
 <template>
-  <header class="flex justify-between items-center py-4 px-4 sm:px-8 bg-burnt-orange-500">
+  <header
+    :class="[
+      'flex justify-between items-center py-4 px-4 sm:px-8 bg-burnt-orange-500 transition-transform duration-300 z-50',
+      isScrollingUp ? 'sticky top-0' : 'static -translate-y-full',
+    ]"
+  >
     <USlideover v-model:open="menuOpen" side="left" class="block sm:hidden">
       <UButton
         icon="ic:round-menu"
@@ -46,6 +51,30 @@
 
 <script setup>
 const menuOpen = ref(false);
+const isScrollingUp = ref(true);
+let lastScrollY = 0;
+
+const handleScroll = () => {
+  if (typeof window !== 'undefined') {
+    const currentScrollY = window.scrollY;
+    isScrollingUp.value = currentScrollY < lastScrollY || currentScrollY <= 0;
+    lastScrollY = currentScrollY;
+  }
+};
+
+onMounted(() => {
+  if (typeof window !== 'undefined') {
+    lastScrollY = window.scrollY; // Initialize lastScrollY after mounting
+    window.addEventListener('scroll', handleScroll);
+  }
+});
+
+onUnmounted(() => {
+  if (typeof window !== 'undefined') {
+    window.removeEventListener('scroll', handleScroll);
+  }
+});
+
 const { data: albums } = await useAsyncData('albums', () => {
   return queryCollection('albums').order('order', 'ASC').all();
 });

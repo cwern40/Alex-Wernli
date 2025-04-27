@@ -119,15 +119,15 @@ const pageContent = [
   },
   {
     title: 'Passing',
-    imgSrc: '/img/Family Pictures/Alex Wernli 11 8x10.jpg',
+    imgSrc: '/img/Family Pictures/Last Family Portrait.jpg',
     imgAlt: 'Alex, For My Momma, Nov 2011',
     text: 'Alex always said "everybody has pain, but misery is a choice." That is the way he lived through every challenge he faced. On March 12th, 2012 Alex peacefully returned home to his heavenly father, surrounded by his loving family.',
   },
   {
     title: 'Legacy',
-    imgSrc: '/img/Family Pictures/Alex Wernli 8.jpg',
+    imgSrc: '/img/Family Pictures/Alex Wernli 20x30 text.jpg',
     imgAlt: 'Alex and Chris, For My Momma, Nov 2011',
-    text: "I'm Alex's older brother and I created this website as a place for people to remember Alex and the way he lived his life. He's the best person I've ever known. I never liked hearing that Alex “lost” his fight with cancer. Physically, cancer took everything from him, but that was something Alex couldn’t control. If he could, he’d still be here. In fact, he probably would have beaten it shortly after he was diagnosed. Mentally, cancer couldn’t touch him. It actually made him stronger. I’m still so amazed at how strong he was. Alex was patient, kind, loving, and happy! The thing I remember most about him during his last year was his laugh. I can still see him sitting on one of the leather couches in the front room, surrounded by family and friends, just laughing as hard as he could. It was so funny when he would laugh that hard, it made everyone else laugh with him. His laugh was so infectious. Mentally, Alex beat cancer, and it wasn’t even close. He beat an aneurysm, a brain hemorrhage, a pulmonary embolism, and cancer, but unfortunately, he lost his life in the process. He was quite the fighter.",
+    text: "I'm Alex's older brother and I created this website as a place for people to remember Alex and the way he lived his life. He's the best person I've ever known. I never liked hearing that Alex “lost” his fight with cancer. Physically, cancer took everything from him, but that was something Alex couldn't control. If he could, he'd still be here. In fact, he probably would have beaten it shortly after he was diagnosed. Mentally, cancer couldn't touch him. It actually made him stronger. I'm still so amazed at how strong he was. Alex was patient, kind, loving, and happy! The thing I remember most about him during his last year was his laugh. I can still see him sitting on one of the leather couches in the front room, surrounded by family and friends, just laughing as hard as he could. It was so funny when he would laugh that hard, it made everyone else laugh with him. His laugh was so infectious. Mentally, Alex beat cancer, and it wasn't even close. He beat an aneurysm, a brain hemorrhage, a pulmonary embolism, and cancer, but unfortunately, he lost his life in the process. I can't wait to see him again.",
   },
 ];
 

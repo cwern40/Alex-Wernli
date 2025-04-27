@@ -39,14 +39,9 @@
           :prev="{ color: 'primary' }"
           :next="{ color: 'primary' }"
           :startIndex="activeIndex"
-          class="max-h-[100vh] max-w-full"
+          class="max-h-[100vh] sm:max-w-[90vw] max-w-full"
         >
-          <img
-            :src="item.src"
-            :alt="item.alt"
-            class="rounded-lg max-w-[90vw] max-h-[85vh] object-contain m-auto"
-            loading="lazy"
-          />
+          <NuxtImg :src="item.src" :alt="item.alt" sizes="10vw" class="rounded-lg m-auto" loading="lazy" />
         </UCarousel>
       </UContainer>
     </section>
