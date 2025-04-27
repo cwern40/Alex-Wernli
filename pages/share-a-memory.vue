@@ -187,7 +187,7 @@ if (import.meta.server) {
     description: "Share your memories of Alex Wernli with us. We'd love to hear from you!",
     ogDescription: "Share your memories of Alex Wernli with us. We'd love to hear from you!",
     ogImage: '/img/Teenager/Alex_obituary.jpg',
-    url: 'https://alexwernli.com/contact',
+    url: 'https://alexwernli.com/share-a-memory',
   });
 }
 

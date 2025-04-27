@@ -105,8 +105,8 @@ const items = ref([
     },
   },
   {
-    label: 'Contact',
-    to: '/contact',
+    label: 'Share a Memory',
+    to: '/share-a-memory',
     class: 'text-xl sm:text-base my-4 sm:my-0',
     onSelect: () => {
       menuOpen.value = false;
