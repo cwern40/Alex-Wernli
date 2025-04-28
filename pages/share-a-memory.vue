@@ -1,6 +1,6 @@
 <template>
   <UContainer class="pb-10">
-    <h1 class="text-center text-3xl font-bold my-8">Contact Us</h1>
+    <h1 class="text-center text-3xl font-bold my-8">Share A Memory</h1>
     <h2 class="w-[600px] max-w-full mx-auto">
       We'd love to hear your memories! Please click on this link to
       <ULink
@@ -24,6 +24,9 @@
       </UFormField>
       <UFormField label="Email" name="email">
         <UInput v-model="state.email" placeholder="Enter your email" variant="soft" class="w-full" />
+      </UFormField>
+      <UFormField label="Title" name="title">
+        <UInput v-model="state.title" placeholder="Enter a title for your memory" variant="soft" class="w-full" />
       </UFormField>
       <UFormField label="Memory" name="memory" required>
         <UTextarea
@@ -76,6 +79,7 @@ const loading = ref(false);
 const state = reactive({
   name: '',
   email: '',
+  title: '',
   memory: '',
   attachements: [],
   file: '',
@@ -141,6 +145,9 @@ async function onSubmit() {
   if (state.email) {
     formData.append('email', state.email);
   }
+  if (state.title) {
+    formData.append('title', state.title);
+  }
   formData.append('memory', state.memory);
   if (state.attachements.length > 0) {
     state.attachements.forEach((file) => {
@@ -156,6 +163,7 @@ async function onSubmit() {
         toast.add({ title: 'Success', description: 'Your message has been sent!', color: 'success' });
         state.name = '';
         state.email = '';
+        state.title = '';
         state.memory = '';
         state.attachements = [];
         state.file = '';
