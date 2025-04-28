@@ -1,8 +1,8 @@
 <template>
   <header
     :class="[
-      'flex justify-between items-center py-4 px-4 sm:px-8 bg-burnt-orange-500 transition-transform duration-300 z-50',
-      isScrollingUp ? 'sticky top-0' : 'static -translate-y-full',
+      'flex justify-between items-center py-4 px-4 sm:px-8 bg-burnt-orange-500 transition-transform duration-300 z-50 w-full',
+      isScrollingUp ? 'sticky top-0' : 'static',
     ]"
   >
     <USlideover v-model:open="menuOpen" side="left" class="block sm:hidden">
