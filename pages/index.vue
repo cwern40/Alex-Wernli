@@ -1,7 +1,11 @@
 <template>
   <section
-    class="flex flex-col items-center justify-center w-full h-screen bg-center bg-no-repeat sm:bg-contain bg-cover"
-    style="background-image: url('/img/Teenager/Alex_obituary.jpg'); background-color: #2a2a2a"
+    class="flex flex-col items-center justify-center w-full h-screen bg-center bg-no-repeat bg-cover sm:bg-contain"
+    style="
+      background-image: url('/img/Teenager/Alex_obituary.jpg');
+      background-color: #2a2a2a;
+      background-position: center;
+    "
   >
     <h2 class="leading-none text-white">THE MEMORIAL</h2>
     <h1 class="text-center text-[50px] sm:text-[100px] font-bold leading-none my-10 text-white">ALEX<br />WERNLI</h1>
