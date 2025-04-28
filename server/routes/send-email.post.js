@@ -7,6 +7,7 @@ export default defineEventHandler(async (event) => {
     subject: `Alex Wernli Memory by ${form.get('name')}`,
     html: `<p><strong>By:</strong> ${form.get('name')}</p>
     ${form.has('email') ? `<p><strong>Email:</strong> ${form.get('email')}</p>` : ''}
+    ${form.has('title') ? `<p><strong>Title:</strong> ${form.get('title')}</p>` : ''}
     <p><strong>Memory:</strong></p>
     <p>${form.get('memory')}</p>`,
   };

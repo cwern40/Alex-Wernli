@@ -31,7 +31,7 @@ const pageContent = [
     title: 'Love for Texas',
     imgSrc: 'img/Teenager/alex pic 1 (2).jpg',
     imgAlt: 'Alex portrait in a Texas shirt',
-    text: 'He also loved the Texas Longhorns. This love started the love he has for his brother. He always looked up to Chris and tried to do everything Chris did. The love the Longhorns came while playing an Xbox game. the Longhorns team was the only team that he had a chance to beat Chris. His room became covered in Texas memorabilia. He converted the whole family to Texas Longhorn fans.',
+    text: 'He also loved the Texas Longhorns. This love started through the love he has for his brother. He always looked up to Chris and tried to do everything Chris did. The love of the Longhorns came while playing an Xbox game. the Longhorns team was the only team that he had a chance to beat Chris. His room became covered in Texas memorabilia. He converted the whole family to Texas Longhorn fans.',
   },
   {
     title: 'Aneurysm',
@@ -67,7 +67,7 @@ const pageContent = [
     title: 'Eagle Project',
     imgSrc: '/img/Teenager/IMG_0345.JPG',
     imgAlt: "Connor and Alex cutting wood for Alex's eagle project",
-    text: "We were told that most kids that have this cancer live fore about a year. Well, what can we say. Alex is unique and this wasn't the case. He filled our lives with memories and miracles. There was a ton of support for Alex. It was overwhelming to watch. He started radiation right away and he said that it was a piece of cake compared to the surgery, he just felt tired. During his radiation treatments Alex finished his eagle project.",
+    text: "We were told that most kids that have this cancer live fore about a year. Well, what can we say. Alex is unique and this wasn't the case. He filled our lives with memories and miracles. There was a ton of support for Alex. It was overwhelming to watch. He started radiation right away and he said that it was a piece of cake compared to the surgery, he just felt tired. During his radiation treatments Alex finished his eagle project (repaired fences at This Is The Place state park).",
   },
   {
     title: 'Make A Wish',
@@ -77,7 +77,7 @@ const pageContent = [
   },
   {
     title: 'Friends leaving on a mission',
-    imgSrc: '/img/Cancer Journey/IMG_1113.JPG',
+    imgSrc: '/img/Cancer Journey/MTC_Front.jpg',
     imgAlt: 'Wernli family in front of the MTC',
     text: "In May of 2009, Chris went on his mission to Guatemala. This is when Alex started faithfully emailing weekly letters and jokes to all the missionaries he knew. Even if he was in the hospital he would have to have his emails written. As it got harder for him to move his hands, he enlisted Nicole's help writing these emails. Alex was persistent and would not go to bed until he got Nicole to help him with his emails.",
   },
@@ -97,13 +97,13 @@ const pageContent = [
     title: 'Missionary',
     imgSrc: '/img/Cancer Journey/IMG_0074.JPG',
     imgAlt: 'Alex wearing his missionary name tag',
-    text: 'Alex was ordained an Elder June of 2010. He got special permission and even though he was only 18 he got called to a service mission. He was so proud to show off his missionary tag. His smile would light up every time he put it on. He followed his mission rules to the letter. he stopped listening to his normal music and started listening to Christian artists. He went faithfully to the temple, never missing a month.',
+    text: 'Alex was ordained an Elder June of 2010. He got special permission and even though he was only 18 he got called to a service mission. He was so proud to show off his missionary tag. His smile would light up every time he put it on. He followed his mission rules to the letter. He stopped listening to his normal music and started listening to Christian artists. He went faithfully to the temple, never missing a month.',
   },
   {
     title: 'Treatment',
     imgSrc: '/img/Cancer Journey/IMG_4561.JPG',
     imgAlt: 'Alex, Harry, and Dillon',
-    text: "In July of 2010 Alex finished up his Chemotherapy. Since very few had made it this long with the cancer that Alex had (DIPG) then doctors weren't quite sure how to help him. In February of 2011 he started radiation again and then chemotherapy in March of that year.",
+    text: "In July of 2010 Alex finished up his Chemotherapy. Since very few had made it this long with the cancer that Alex had (DIPG) then doctors weren't quite sure how to help him. Due to the location of his tumor, surgery wasn't an option so in February of 2011 he started radiation again and then chemotherapy in March of that year.",
   },
   {
     title: 'Treatment',
@@ -119,15 +119,15 @@ const pageContent = [
   },
   {
     title: 'Passing',
-    imgSrc: '/img/Family Pictures/Alex Wernli 11 8x10.jpg',
+    imgSrc: '/img/Family Pictures/Last Family Portrait.jpg',
     imgAlt: 'Alex, For My Momma, Nov 2011',
-    text: 'Alex always said "everybody has pain, but misery is a choice." That is the way he lived through every challenge he faced. On March 12th, 2012 Alex peacefully returned home to his heavenly father, surrounded by his loving family.',
+    text: 'Alex always said "everybody has pain, but misery is a choice." That is the way he lived through every challenge he faced. On March 12th, 2012 Alex peacefully returned home to his Heavenly Father, surrounded by his loving family.',
   },
   {
     title: 'Legacy',
-    imgSrc: '/img/Family Pictures/Alex Wernli 8.jpg',
+    imgSrc: '/img/Family Pictures/Alex Wernli 20x30 text.jpg',
     imgAlt: 'Alex and Chris, For My Momma, Nov 2011',
-    text: "I'm Alex's older brother and I created this website as a place for people to remember Alex and the way he lived his life. He's the best person I've ever known. I never liked hearing that Alex “lost” his fight with cancer. Physically, cancer took everything from him, but that was something Alex couldn’t control. If he could, he’d still be here. In fact, he probably would have beaten it shortly after he was diagnosed. Mentally, cancer couldn’t touch him. It actually made him stronger. I’m still so amazed at how strong he was. Alex was patient, kind, loving, and happy! The thing I remember most about him during his last year was his laugh. I can still see him sitting on one of the leather couches in the front room, surrounded by family and friends, just laughing as hard as he could. It was so funny when he would laugh that hard, it made everyone else laugh with him. His laugh was so infectious. Mentally, Alex beat cancer, and it wasn’t even close. He beat an aneurysm, a brain hemorrhage, a pulmonary embolism, and cancer, but unfortunately, he lost his life in the process. He was quite the fighter.",
+    text: "I'm Alex's older brother and I created this website as a place for people to remember Alex and the way he lived his life. He's the best person I've ever known. I never liked hearing that Alex “lost” his fight with cancer. Physically, cancer took everything from him, but that was something Alex couldn't control. If he could, he'd still be here. In fact, he probably would have beaten it shortly after he was diagnosed. Mentally, cancer couldn't touch him. It actually made him stronger. I'm still so amazed at how strong he was. Alex was patient, kind, loving, and happy! The thing I remember most about him during his last year was his laugh. I can still see him sitting on one of the leather couches in the front room, surrounded by family and friends, just laughing as hard as he could. It was so funny when he would laugh that hard, it made everyone else laugh with him. His laugh was so infectious. Mentally, Alex beat cancer, and it wasn't even close. He beat an aneurysm, a brain hemorrhage, a pulmonary embolism, and cancer, but unfortunately, he lost his life in the process. I can't wait to see him again.",
   },
 ];
 
