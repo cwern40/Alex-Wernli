@@ -41,7 +41,9 @@
     <ULink to="/albums/texas-trip" class="hidden sm:block">
       <NuxtImg src="/texas-longhorns-2-logo-black-and-white.png" alt="Logo" height="30" width="30" />
     </ULink>
-    <p class="text-white font-bold text-2xl block sm:hidden">AW</p>
+    <ULink to="/life-story" class="block sm:hidden" @click="menuOpen = false"
+      ><p class="text-white font-bold text-2xl">AW</p>
+    </ULink>
     <UNavigationMenu color="neutral" :items="items" orientation="horizontal" class="gap-4 hidden sm:block" />
     <ULink to="/albums/texas-trip">
       <NuxtImg src="/texas-longhorns-2-logo-black-and-white.png" alt="Logo" height="30" width="30" />

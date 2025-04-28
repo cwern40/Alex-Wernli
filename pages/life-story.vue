@@ -25,7 +25,7 @@ const pageContent = [
     title: 'Childhood',
     imgSrc: '/img/Childhood/Alex birthday money.jpg',
     imgAlt: 'Alex excited about birthday money',
-    text: "He was a very busy, mischievous, active kid who couldn't sit still. He loved sports. He played t-ball, basketball, and flag football, but his true passion was soccer. He excelled at soccer and played on a competitive team for 5 years. He really loved being outdoors. At Flaming Gorge, he liked to ride motorcycles, catch lizards, swim at the beach, and be out on the boat.",
+    text: "He was a very busy, mischievous, active kid who couldn't sit still. Sports were a big part of his life; t-ball, basketball, and flag football kept him moving, but his true passion was soccer. He excelled at soccer and played on a competitive team for 5 years. The outdoors called to him as well and at Flaming Gorge, he liked riding motorcycles, catching lizards, swimming at the beach, and enjoying time out on the boat.",
   },
   {
     title: 'Love for Texas',
