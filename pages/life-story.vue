@@ -61,7 +61,7 @@ const pageContent = [
     title: 'Diagnosis',
     imgSrc: '/img/Cancer Journey/Alex_16_hospital_bday.jpg',
     imgAlt: 'Alex and Jacob',
-    text: 'Alex would start to slur his speech, and he had a little bit of double vision and had a staggered walk. One time, he mentioned to Mom that he had "forgotten how to swallow". Mom knew that something was wrong, but the doctors couldn\'t find anything. After a persistent mother and several scans later, they found it. On his 16th birthday, Ales was diagnosed with a brain stem tumor called diffuse intrinsic pontine glioma (DIPG).',
+    text: 'Alex would start to slur his speech, and he had a little bit of double vision and had a staggered walk. One time, he mentioned to Mom that he had "forgotten how to swallow". Mom knew that something was wrong, but the doctors couldn\'t find anything. After a persistent mother and several scans later, they found it. On his 16th birthday, Alex was diagnosed with a brain stem tumor called diffuse intrinsic pontine glioma (DIPG).',
   },
   {
     title: 'Eagle Project',

@@ -41,7 +41,12 @@
           :startIndex="activeIndex"
           class="max-h-[100vh] sm:max-w-[90vw] max-w-full"
         >
-          <NuxtImg :src="item.src" :alt="item.alt" class="rounded-lg max-w-[90vw] max-h-[85vh] m-auto" loading="lazy" />
+          <NuxtImg
+            :src="item.src"
+            :alt="item.alt"
+            class="rounded-lg sm:max-w-[90vw] max-w-full sm:max-h-[85vh] max-h-[90vh] m-auto"
+            loading="lazy"
+          />
         </UCarousel>
       </UContainer>
     </section>
