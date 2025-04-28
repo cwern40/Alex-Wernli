@@ -1,7 +1,13 @@
 <template>
   <UContainer as="article" class="pb-10 flex justify-center flex-col">
     <h1 class="text-center font-bold text-4xl mt-8">Alexander Lee Wernli</h1>
-    <NuxtImg src="img/Teenager/Alex_obituary.jpg" width="150" class="mx-auto rounded-full my-6" loading="lazy" />
+    <NuxtImg
+      src="img/Teenager/Alex_obituary.jpg"
+      format="webp"
+      width="150"
+      class="mx-auto rounded-full my-6"
+      loading="lazy"
+    />
     <p class="pb-3">
       Alexander Lee Wernli, surrounded by his loving family, returned to his Heavenly Father on March 12, 2012.
     </p>

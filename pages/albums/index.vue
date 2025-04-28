@@ -11,7 +11,16 @@
         loop
         :auto-scroll="{ stopOnInteraction: false }"
       >
-        <NuxtImg :src="item.src" :alt="item.alt" width="320" height="320" class="rounded-lg" loading="lazy" />
+        <NuxtImg
+          :src="item.src"
+          :alt="item.alt"
+          format="webp"
+          quality="90"
+          width="320"
+          height="320"
+          class="rounded-lg"
+          loading="lazy"
+        />
       </UCarousel>
     </NuxtLink>
   </UContainer>

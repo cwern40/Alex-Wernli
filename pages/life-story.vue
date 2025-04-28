@@ -31,7 +31,7 @@ const pageContent = [
     title: 'Love for Texas',
     imgSrc: 'img/Teenager/alex pic 1 (2).jpg',
     imgAlt: 'Alex portrait in a Texas shirt',
-    text: 'He also loved the Texas Longhorns. This love started through the love he has for his brother. He always looked up to Chris and tried to do everything Chris did. The love of the Longhorns came while playing an Xbox game. the Longhorns team was the only team that he had a chance to beat Chris. His room became covered in Texas memorabilia. He converted the whole family to Texas Longhorn fans.',
+    text: 'He also loved the Texas Longhorns. This love started through the love he has for his brother. He always looked up to Chris and tried to do everything Chris did. The love of the Longhorns came while playing an Xbox game. The Longhorns team was the only team that he had a chance to beat Chris. His room became covered in Texas memorabilia. He converted the whole family to Texas Longhorn fans.',
   },
   {
     title: 'Aneurysm',
@@ -61,7 +61,7 @@ const pageContent = [
     title: 'Diagnosis',
     imgSrc: '/img/Cancer Journey/Alex_16_hospital_bday.jpg',
     imgAlt: 'Alex and Jacob',
-    text: 'Alex would start to slur his speech, and he had a little bit of double vision and had a staggered walk. One time, he mentioned to Mom that he had "forgotten how to swallow". Mom knew that something was wrong, but the doctors couldn\'t find anything. After a persistent mother and several scans later, they found it. On his 16th birthday, Alex was diagnosed with a brain stem tumor called diffuse intrinsic pontine glioma (DIPG).',
+    text: 'Alex started to slur his speech, and he had a little bit of double vision and had a staggered walk. One time, he mentioned to Mom that he had "forgotten how to swallow". Mom knew that something was wrong, but the doctors couldn\'t find anything. After a persistent mother and several scans later, they found it. On his 16th birthday, Alex was diagnosed with a brain stem tumor called diffuse intrinsic pontine glioma (DIPG).',
   },
   {
     title: 'Eagle Project',
