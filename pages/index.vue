@@ -16,7 +16,7 @@ definePageMeta({
 const img = useImage();
 
 const backgroundStyles = computed(() => {
-  const imgUrl = img('/img/Teenager/Alex_obituary.jpg', { format: 'webp' });
+  const imgUrl = img('/img/Teenager/Alex_obituary.jpg');
 
   return { backgroundImage: `url('${imgUrl}')`, backgroundColor: '#2a2a2a', backgroundPosition: 'center' };
 });
