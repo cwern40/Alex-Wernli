@@ -36,7 +36,7 @@ if (import.meta.server) {
   useSeoMeta({
     description: 'Explore the photo albums of Alex Wernli, showcasing his life and memories.',
     ogDescription: 'Explore the photo albums of Alex Wernli, showcasing his life and memories.',
-    ogImage: '/img/Teenager/Alex_obituary.jpg',
+    ogImage: '/img/Teenager/Alex_obituary_webp.webp',
     url: 'https://alexwernli.com/albums',
   });
 }
