@@ -115,7 +115,7 @@ const pageContent = [
     title: 'Jokes',
     imgSrc: '/img/Cancer Journey/IMG_0061.JPG',
     imgAlt: 'Alex, Nicole, Mom, and Dad',
-    text: 'Whether it was texting rhymes to Aunt Terri, having a golf joke competition with President Welch, or just sending mass texts, Alex was always joking around. He loved to laugh and smile and love to make other people laugh and smile. His daily jokes became something that his family and friends looked forward to and once again he would enlist the help of his sister Nicole to find jokes and send them out.',
+    text: 'Whether it was texting rhymes to Aunt Terri, having a golf joke competition with President Welch, or just sending mass texts, Alex was always joking around. He loved to laugh and smile and loved to make other people laugh and smile. His daily jokes became something that his family and friends looked forward to and once again he would enlist the help of his sister Nicole to find jokes and send them out.',
   },
   {
     title: 'Passing',
