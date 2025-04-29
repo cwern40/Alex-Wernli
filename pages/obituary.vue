@@ -2,7 +2,7 @@
   <UContainer as="article" class="pb-10 flex justify-center flex-col">
     <h1 class="text-center font-bold text-4xl mt-8">Alexander Lee Wernli</h1>
     <NuxtImg
-      src="img/Teenager/Alex_obituary.jpg"
+      src="/img/Teenager/Alex_obituary_webp.webp"
       alt="Alexander Lee Wernli Obituary Photo"
       format="webp"
       width="150"
@@ -54,7 +54,7 @@ if (import.meta.server) {
   useSeoMeta({
     description: 'The obituary of Alex Wernli, who passed away on March 12, 2012.',
     ogDescription: 'The obituary of Alex Wernli, who passed away on March 12, 2012.',
-    ogImage: '/img/Teenager/Alex_obituary.jpg',
+    ogImage: '/img/Teenager/Alex_obituary_webp.webp',
     url: 'https://alexwernli.com/obituary',
   });
 }

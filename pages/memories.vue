@@ -16,7 +16,7 @@ if (import.meta.server) {
   useSeoMeta({
     description: "Here's a collection of memories from Alex's friends and family.",
     ogDescription: "Here's a collection of memories from Alex's friends and family.",
-    ogImage: '/img/Teenager/Alex_obituary.jpg',
+    ogImage: '/img/Teenager/Alex_obituary_webp.webp',
     url: 'https://alexwernli.com/memories',
   });
 }
