@@ -1,7 +1,7 @@
 <template>
   <section
     class="flex flex-col items-center justify-center w-full h-screen min-h-screen bg-center bg-no-repeat bg-cover sm:bg-contain"
-    :style="backgroundStyles"
+    style="background-image: url('/img/Teenager/Alex_obituary_webp.webp'); background-color: #2a2a2a"
   >
     <h2 class="leading-none text-white">THE MEMORIAL</h2>
     <h1 class="text-center text-[50px] sm:text-[100px] font-bold leading-none my-10 text-white">ALEX<br />WERNLI</h1>
@@ -11,14 +11,6 @@
 <script setup>
 definePageMeta({
   layout: 'no-header',
-});
-
-const img = useImage();
-
-const backgroundStyles = computed(() => {
-  const imgUrl = img('/img/Teenager/Alex_obituary_webp.webp');
-
-  return { backgroundImage: `url('${imgUrl}')`, backgroundColor: '#2a2a2a', backgroundPosition: 'center' };
 });
 
 if (import.meta.server) {
