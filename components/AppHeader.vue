@@ -20,7 +20,9 @@
             <ULink to="/albums/texas-trip" @click="menuOpen = false">
               <NuxtImg src="/texas-longhorns-2-logo-black-and-white.png" alt="Logo" height="30" width="30" />
             </ULink>
-            <p class="text-white font-bold text-2xl">AW</p>
+            <ULink to="/life-story" @click="menuOpen = false">
+              <p class="text-white font-bold text-2xl">AW</p>
+            </ULink>
             <UIcon
               name="weui:close2-outlined"
               size="28px"

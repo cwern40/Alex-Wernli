@@ -3,6 +3,7 @@
     <h1 class="text-center font-bold text-4xl mt-8">Alexander Lee Wernli</h1>
     <NuxtImg
       src="img/Teenager/Alex_obituary.jpg"
+      alt="Alexander Lee Wernli Obituary Photo"
       format="webp"
       width="150"
       class="mx-auto rounded-full my-6"

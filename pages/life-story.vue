@@ -61,7 +61,7 @@ const pageContent = [
     title: 'Diagnosis',
     imgSrc: '/img/Cancer Journey/Alex_16_hospital_bday.jpg',
     imgAlt: 'Alex and Jacob',
-    text: 'Alex started to slur his speech, and he had a little bit of double vision and had a staggered walk. One time, he mentioned to Mom that he had "forgotten how to swallow". Mom knew that something was wrong, but the doctors couldn\'t find anything. After a persistent mother and several scans later, they found it. On his 16th birthday, Alex was diagnosed with a brain stem tumor called diffuse intrinsic pontine glioma (DIPG).',
+    text: 'Alex started to slur his speech, had a little bit of double vision, and had a staggered walk. One time, he mentioned to Mom that he had "forgotten how to swallow". Mom knew that something was wrong, but the doctors couldn\'t find anything. After a persistent mother and several scans later, they found it. On his 16th birthday, Alex was diagnosed with a brain stem tumor called diffuse intrinsic pontine glioma (DIPG).',
   },
   {
     title: 'Eagle Project',
@@ -127,7 +127,7 @@ const pageContent = [
     title: 'Legacy',
     imgSrc: '/img/FamilyPictures/Alex Wernli 20x30 text.jpg',
     imgAlt: 'Alex and Chris, For My Momma, Nov 2011',
-    text: "I'm Alex's older brother and I created this website as a place for people to remember Alex and the way he lived his life. He's the best person I've ever known. I never liked hearing that Alex “lost” his fight with cancer. Physically, cancer took everything from him, but that was something Alex couldn't control. If he could, he'd still be here. In fact, he probably would have beaten it shortly after he was diagnosed. Mentally, cancer couldn't touch him. It actually made him stronger. I'm still so amazed at how strong he was. Alex was patient, kind, loving, and happy! The thing I remember most about him during his last year was his laugh. I can still see him sitting on one of the leather couches in the front room, surrounded by family and friends, just laughing as hard as he could. It was so funny when he would laugh that hard, it made everyone else laugh with him. His laugh was so infectious. Mentally, Alex beat cancer, and it wasn't even close. He beat an aneurysm, a brain hemorrhage, a pulmonary embolism, and cancer, but unfortunately, he lost his life in the process. I can't wait to see him again.",
+    text: "I'm Alex's older brother and I created this website as a place for people to remember Alex and the way he lived his life. He's the best person I've ever known. I never liked hearing that Alex “lost” his fight with cancer. Physically, cancer took everything from him, but that was something Alex couldn't control. If he could, he'd still be here. In fact, he probably would have beaten it shortly after he was diagnosed. Mentally, cancer couldn't touch him. It actually made him stronger. I'm still so amazed at how strong he was. Alex was patient, kind, loving, and happy! The thing I remember most about him during his last year was his laugh. I can still see him sitting on one of the leather couches in the front room, surrounded by family and friends, just laughing as hard as he could. It was so funny when he would laugh that hard, it made everyone else laugh with him. His laugh was so infectious. Mentally, Alex beat cancer, and it wasn't even close. He beat an aneurysm, a brain hemorrhage, a pulmonary embolism, and cancer, but unfortunately, he lost his life in the process. I can't wait to see him again!",
   },
 ];
 
