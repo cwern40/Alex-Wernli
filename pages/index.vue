@@ -16,10 +16,10 @@ definePageMeta({
 if (import.meta.server) {
   useSeoMeta({
     description:
-      'Alex Wernli was born June 1st 1992 and passed away March 12th 2012 at the age of 19 from brain cancer (DIPG). He never complained, choosing instead to use his radiant smile and infectious sense of humor to brighten the lives of those around him. This is his memorial.',
+      'Alex Wernli passed away as a result of a brain tumor (DIPG) at the age of 19. In his short life he showed endurance, love & patience to all. This is his memorial.',
     ogDescription:
-      'Alex Wernli was born June 1st 1992 and passed away March 12th 2012 at the age of 19 from brain cancer (DIPG). He never complained, choosing instead to use his radiant smile and infectious sense of humor to brighten the lives of those around him. This is his memorial.',
-    ogImage: '/img/Teenager/Alex_obituary_webp.webp',
+      'Alex Wernli passed away as a result of a brain tumor (DIPG) at the age of 19. In his short life he showed endurance, love & patience to all. This is his memorial.',
+    ogImage: 'https://alexwernlimemorial.com/img/Teenager/Alex_obituary_webp.webp',
     url: 'https://alexwernlimemorial.com',
   });
 }
