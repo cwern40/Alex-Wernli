@@ -54,8 +54,8 @@ if (import.meta.server) {
   useSeoMeta({
     description: 'The obituary of Alex Wernli, who passed away on March 12, 2012.',
     ogDescription: 'The obituary of Alex Wernli, who passed away on March 12, 2012.',
-    ogImage: '/img/Teenager/Alex_obituary_webp.webp',
-    url: 'https://alexwernli.com/obituary',
+    ogImage: 'https://alexwernlimemorial.com/img/Teenager/Alex_obituary_webp.webp',
+    url: 'https://alexwernlimemorial.com/obituary',
   });
 }
 

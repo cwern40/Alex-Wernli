@@ -155,8 +155,8 @@ if (import.meta.server) {
       "Alex had a positive attitude and amazing sense of humor through his many trials. Here's his life story.",
     ogDescription:
       "Alex had a positive attitude and amazing sense of humor through his many trials. Here's his life story.",
-    ogImage: '/img/Teenager/Alex_obituary_webp.webp',
-    url: 'https://alexwernli.com/life-story',
+    ogImage: 'https://alexwernlimemorial.com/img/Teenager/Alex_obituary_webp.webp',
+    url: 'https://alexwernlimemorial.com/life-story',
   });
 }
 
