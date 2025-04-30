@@ -7,7 +7,7 @@
         raw
         to="mailto:chris.wernli40@gmail.com"
         active-class="font-bold"
-        inactive-class="text-burnt-orange-600 hover:text-burnt-orange-700"
+        inactive-class="text-burnt-orange-500 hover:text-burnt-orange-300"
         >send us an email</ULink
       >
       or fill out the form below.
