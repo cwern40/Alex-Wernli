@@ -8,6 +8,7 @@
     <USlideover v-model:open="menuOpen" side="left" class="block sm:hidden">
       <UButton
         icon="ic:round-menu"
+        name="menu"
         color="primary"
         size="md"
         variant="solid"

@@ -22,12 +22,5 @@ export default defineAppConfig({
         },
       },
     },
-    formField: {
-      required: {
-        true: {
-          label: "after:content-['*'] after:ms-0.5 after:text-burnt-orange-500",
-        },
-      },
-    },
   },
 });

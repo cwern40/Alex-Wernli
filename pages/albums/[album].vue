@@ -7,6 +7,7 @@
         :src="img.src"
         :alt="img.alt"
         :key="img.src"
+        format="webp"
         class="rounded-lg cursor-pointer break-inside-avoid"
         sizes="180px sm:285px"
         loading="lazy"
