@@ -32,4 +32,12 @@ export default defineNuxtConfig({
       pass: process.env.MAIL_PASS,
     },
   },
+  routeRules: {
+    '/': { prerender: true },
+    '/life-story': { prerender: true },
+    '/obituary': { prerender: true },
+    '/memories': { prerender: true },
+    '/albums/**': { prerender: true },
+    '/share-a-memory': { prerender: true },
+  },
 });
