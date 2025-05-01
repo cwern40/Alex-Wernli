@@ -40,4 +40,13 @@ export default defineNuxtConfig({
     '/albums/**': { prerender: true },
     '/share-a-memory': { prerender: true },
   },
+  nitro: {
+    compressPublicAssets: true,
+    publicAssets: [
+      {
+        dir: 'public',
+        maxAge: 60 * 60 * 24 * 7, // 1 week
+      },
+    ],
+  },
 });
