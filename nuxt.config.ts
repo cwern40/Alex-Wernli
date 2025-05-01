@@ -44,7 +44,7 @@ export default defineNuxtConfig({
     compressPublicAssets: true,
     publicAssets: [
       {
-        dir: 'public',
+        dir: 'public/**',
         maxAge: 60 * 60 * 24 * 7, // 1 week
       },
     ],
