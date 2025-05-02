@@ -43,7 +43,7 @@ export default defineNuxtConfig({
     '/life-story': { prerender: true, headers: { 'Cache-Control': 'public, max-age=86400, immutable' } },
     '/obituary': { prerender: true, headers: { 'Cache-Control': 'public, max-age=86400, immutable' } },
     '/memories': { prerender: true, headers: { 'Cache-Control': 'public, max-age=86400, immutable' } },
-    '/albums/**': { prerender: true, headers: { 'Cache-Control': 'public, max-age=31536000, immutable' } },
+    '/albums/**': { prerender: true, headers: { 'Cache-Control': 'public, max-age=86400, immutable' } },
     '/share-a-memory': { prerender: true, headers: { 'Cache-Control': 'public, max-age=86400, immutable' } },
   },
   nitro: {
