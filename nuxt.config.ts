@@ -39,12 +39,12 @@ export default defineNuxtConfig({
     },
   },
   routeRules: {
-    '/': { prerender: true, headers: { 'Cache-Control': 'public, max-age=31536000, immutable' } },
-    '/life-story': { prerender: true, headers: { 'Cache-Control': 'public, max-age=31536000, immutable' } },
-    '/obituary': { prerender: true, headers: { 'Cache-Control': 'public, max-age=31536000, immutable' } },
-    '/memories': { prerender: true, headers: { 'Cache-Control': 'public, max-age=31536000, immutable' } },
+    '/': { prerender: true, headers: { 'Cache-Control': 'public, max-age=86400, immutable' } },
+    '/life-story': { prerender: true, headers: { 'Cache-Control': 'public, max-age=86400, immutable' } },
+    '/obituary': { prerender: true, headers: { 'Cache-Control': 'public, max-age=86400, immutable' } },
+    '/memories': { prerender: true, headers: { 'Cache-Control': 'public, max-age=86400, immutable' } },
     '/albums/**': { prerender: true, headers: { 'Cache-Control': 'public, max-age=31536000, immutable' } },
-    '/share-a-memory': { prerender: true, headers: { 'Cache-Control': 'public, max-age=31536000, immutable' } },
+    '/share-a-memory': { prerender: true, headers: { 'Cache-Control': 'public, max-age=86400, immutable' } },
   },
   nitro: {
     compressPublicAssets: true,
