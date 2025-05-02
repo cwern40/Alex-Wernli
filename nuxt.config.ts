@@ -17,6 +17,12 @@ export default defineNuxtConfig({
   colorMode: {
     preference: 'light',
   },
+  image: {
+    provider: 'ipx',
+    ipx: {
+      maxAge: 60 * 60 * 24 * 365, // 1 year
+    },
+  },
   ui: {
     theme: {
       colors: ['primary', 'secondary', 'tertiary', 'info', 'success', 'warning', 'error'],
@@ -33,19 +39,20 @@ export default defineNuxtConfig({
     },
   },
   routeRules: {
-    '/': { prerender: true },
-    '/life-story': { prerender: true },
-    '/obituary': { prerender: true },
-    '/memories': { prerender: true },
-    '/albums/**': { prerender: true },
-    '/share-a-memory': { prerender: true },
+    '/': { prerender: true, headers: { 'Cache-Control': 'public, max-age=31536000, immutable' } },
+    '/life-story': { prerender: true, headers: { 'Cache-Control': 'public, max-age=31536000, immutable' } },
+    '/obituary': { prerender: true, headers: { 'Cache-Control': 'public, max-age=31536000, immutable' } },
+    '/memories': { prerender: true, headers: { 'Cache-Control': 'public, max-age=31536000, immutable' } },
+    '/albums/**': { prerender: true, headers: { 'Cache-Control': 'public, max-age=31536000, immutable' } },
+    '/share-a-memory': { prerender: true, headers: { 'Cache-Control': 'public, max-age=31536000, immutable' } },
   },
   nitro: {
     compressPublicAssets: true,
     publicAssets: [
       {
-        dir: 'public/**',
-        maxAge: 60 * 60 * 24 * 7, // 1 week
+        baseURL: 'img',
+        dir: 'public/img',
+        maxAge: 60 * 60 * 24 * 365, // 1 year
       },
     ],
   },

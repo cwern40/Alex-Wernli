@@ -19,7 +19,7 @@
         <div class="bg-burnt-orange-500 h-full p-8 flex flex-col items-center">
           <div class="flex justify-between items-center w-full mb-4">
             <ULink to="/albums/texas-trip" @click="menuOpen = false">
-              <NuxtImg src="/texas-longhorns-2-logo-black-and-white.png" alt="Logo" height="30" width="30" />
+              <NuxtImg src="/img/texas-longhorns-2-logo-black-and-white.png" alt="Logo" height="30" width="30" />
             </ULink>
             <ULink to="/life-story" @click="menuOpen = false">
               <p class="text-white font-bold text-2xl">AW</p>
@@ -42,14 +42,14 @@
       </template>
     </USlideover>
     <ULink to="/albums/texas-trip" class="hidden sm:block">
-      <NuxtImg src="/texas-longhorns-2-logo-black-and-white.png" alt="Logo" height="30" width="30" />
+      <NuxtImg src="/img/texas-longhorns-2-logo-black-and-white.png" alt="Logo" height="30" width="30" />
     </ULink>
     <ULink to="/life-story" class="block sm:hidden" @click="menuOpen = false"
       ><p class="text-white font-bold text-2xl">AW</p>
     </ULink>
     <UNavigationMenu color="neutral" :items="items" orientation="horizontal" class="gap-4 hidden sm:block" />
     <ULink to="/albums/texas-trip">
-      <NuxtImg src="/texas-longhorns-2-logo-black-and-white.png" alt="Logo" height="30" width="30" />
+      <NuxtImg src="/img/texas-longhorns-2-logo-black-and-white.png" alt="Logo" height="30" width="30" />
     </ULink>
   </header>
 </template>
