@@ -39,12 +39,36 @@ export default defineNuxtConfig({
     },
   },
   routeRules: {
-    '/': { prerender: true, swr: 60 * 60 * 24 },
-    '/life-story': { prerender: true, swr: 60 * 60 * 24 },
-    '/obituary': { prerender: true, swr: 60 * 60 * 24 },
-    '/memories': { prerender: true, swr: 60 * 60 * 24 },
-    '/albums/**': { prerender: true, swr: 60 * 60 * 24 },
-    '/share-a-memory': { prerender: true, swr: 60 * 60 * 24 },
+    '/': {
+      prerender: true,
+      swr: true,
+      headers: { 'Cache-Control': 'max-age=86400, stale-while-revalidate=608400, public' },
+    },
+    '/life-story': {
+      prerender: true,
+      swr: true,
+      headers: { 'Cache-Control': 'max-age=86400, stale-while-revalidate=608400, public' },
+    },
+    '/obituary': {
+      prerender: true,
+      swr: true,
+      headers: { 'Cache-Control': 'max-age=86400, stale-while-revalidate=608400, public' },
+    },
+    '/memories': {
+      prerender: true,
+      swr: true,
+      headers: { 'Cache-Control': 'max-age=86400, stale-while-revalidate=608400, public' },
+    },
+    '/albums/**': {
+      prerender: true,
+      swr: true,
+      headers: { 'Cache-Control': 'max-age=86400, stale-while-revalidate=608400, public' },
+    },
+    '/share-a-memory': {
+      prerender: true,
+      swr: true,
+      headers: { 'Cache-Control': 'max-age=86400, stale-while-revalidate=608400, public' },
+    },
   },
   nitro: {
     compressPublicAssets: true,
