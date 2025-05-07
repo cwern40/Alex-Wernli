@@ -1,21 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://alexwernlimemorial.com</loc>
+        <loc>https://alexwernlimemorial.com/</loc>
+        <lastmod>2025-05-06</lastmod>
     </url>
     <url>
-        <loc>https://alexwernlimemorial.com/life-story</loc>
+        <loc>https://alexwernlimemorial.com/life-story/</loc>
+        <lastmod>2025-05-06</lastmod>
     </url>
     <url>
-        <loc>https://alexwernlimemorial.com/albums</loc>
+        <loc>https://alexwernlimemorial.com/albums/</loc>
+        <lastmod>2025-05-06</lastmod>
     </url>
     <url>
-        <loc>https://alexwernlimemorial.com/obituary</loc>
+        <loc>https://alexwernlimemorial.com/albums/aneurysm/</loc>
+        <lastmod>2025-05-06</lastmod>
     </url>
     <url>
-        <loc>https://alexwernlimemorial.com/memories</loc>
+        <loc>https://alexwernlimemorial.com/albums/cancer-journey/</loc>
+        <lastmod>2025-05-06</lastmod>
     </url>
     <url>
-        <loc>https://alexwernlimemorial.com/share-a-memory</loc>
+        <loc>https://alexwernlimemorial.com/albums/childhood/</loc>
+        <lastmod>2025-05-06</lastmod>
+    </url>
+    <url>
+        <loc>https://alexwernlimemorial.com/albums/family-pictures/</loc>
+        <lastmod>2025-05-06</lastmod>
+    </url>
+    <url>
+        <loc>https://alexwernlimemorial.com/albums/make-a-wish/</loc>
+        <lastmod>2025-05-06</lastmod>
+    </url>
+    <url>
+        <loc>https://alexwernlimemorial.com/albums/teenager/</loc>
+        <lastmod>2025-05-06</lastmod>
+    </url>
+    <url>
+        <loc>https://alexwernlimemorial.com/albums/texas-trip/</loc>
+        <lastmod>2025-05-06</lastmod>
+    </url>
+    <url>
+        <loc>https://alexwernlimemorial.com/obituary/</loc>
+        <lastmod>2025-05-06</lastmod>
+    </url>
+    <url>
+        <loc>https://alexwernlimemorial.com/memories/</loc>
+        <lastmod>2025-05-06</lastmod>
+    </url>
+    <url>
+        <loc>https://alexwernlimemorial.com/share-a-memory/</loc>
+        <lastmod>2025-05-06</lastmod>
     </url>
 </urlset>
