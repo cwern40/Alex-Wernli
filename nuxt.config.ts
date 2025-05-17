@@ -41,67 +41,54 @@ export default defineNuxtConfig({
   routeRules: {
     '/': {
       prerender: true,
-      swr: true,
       headers: { 'Cache-Control': 'max-age=86400, stale-while-revalidate=608400, s-maxage=86400, immutable, public' },
     },
     '/life-story': {
       prerender: true,
-      swr: true,
       headers: { 'Cache-Control': 'max-age=86400, stale-while-revalidate=608400, s-maxage=86400, immutable, public' },
     },
     '/obituary': {
       prerender: true,
-      swr: true,
       headers: { 'Cache-Control': 'max-age=86400, stale-while-revalidate=608400, s-maxage=86400, immutable, public' },
     },
     '/memories': {
       prerender: true,
-      swr: true,
       headers: { 'Cache-Control': 'max-age=86400, stale-while-revalidate=608400, s-maxage=86400, immutable, public' },
     },
     '/albums/**': {
       prerender: true,
-      swr: true,
       headers: { 'Cache-Control': 'max-age=86400, stale-while-revalidate=608400, s-maxage=86400, immutable, public' },
     },
     '/albums/aneurysm': {
       prerender: true,
-      swr: true,
       headers: { 'Cache-Control': 'max-age=86400, stale-while-revalidate=608400, s-maxage=86400, immutable, public' },
     },
     '/albums/cancer-journey': {
       prerender: true,
-      swr: true,
       headers: { 'Cache-Control': 'max-age=86400, stale-while-revalidate=608400, s-maxage=86400, immutable, public' },
     },
     '/albums/childhood': {
       prerender: true,
-      swr: true,
       headers: { 'Cache-Control': 'max-age=86400, stale-while-revalidate=608400, s-maxage=86400, immutable, public' },
     },
     '/albums/family-pictures': {
       prerender: true,
-      swr: true,
       headers: { 'Cache-Control': 'max-age=86400, stale-while-revalidate=608400, s-maxage=86400, immutable, public' },
     },
     '/albums/make-a-wish': {
       prerender: true,
-      swr: true,
       headers: { 'Cache-Control': 'max-age=86400, stale-while-revalidate=608400, s-maxage=86400, immutable, public' },
     },
     '/albums/teenager': {
       prerender: true,
-      swr: true,
       headers: { 'Cache-Control': 'max-age=86400, stale-while-revalidate=608400, s-maxage=86400, immutable, public' },
     },
     '/albums/texas-trip': {
       prerender: true,
-      swr: true,
       headers: { 'Cache-Control': 'max-age=86400, stale-while-revalidate=608400, s-maxage=86400, immutable, public' },
     },
     '/share-a-memory': {
       prerender: true,
-      swr: true,
       headers: { 'Cache-Control': 'max-age=86400, stale-while-revalidate=608400, s-maxage=86400, immutable, public' },
     },
   },
