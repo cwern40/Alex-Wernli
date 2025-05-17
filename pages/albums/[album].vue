@@ -64,13 +64,17 @@ const route = useRoute();
 const { data: album } = await useAsyncData(route.params.album, () => {
   return queryCollection('albums').where('url', '=', route.params.album).first();
 });
+
+if (!album.value) {
+  await navigateTo('/albums');
+}
 const breadcrumbs = ref([
   {
     label: 'Albums',
     to: '/albums',
   },
   {
-    label: album.value.title,
+    label: album?.value?.title ?? 'Loading...',
     to: `/albums/${route.params.album}`,
   },
 ]);
@@ -91,9 +95,9 @@ if (import.meta.server) {
 }
 
 useSeoMeta({
-  title: () => album.value.title,
-  ogtitle: () => album.value.title,
-  ogImage: () => `https://alexwernlimemorial.com/${album.value.photos[0].src}`,
+  title: () => album?.value?.title ?? '',
+  ogtitle: () => album?.value?.title ?? '',
+  ogImage: () => `https://alexwernlimemorial.com/${album?.value?.photos?.[0]?.src ?? ''}`,
   url: () => `https://alexwernlimemorial.com/albums/${route.params.album}`,
 });
 </script>
