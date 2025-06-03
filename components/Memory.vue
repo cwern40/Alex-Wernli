@@ -7,13 +7,23 @@
     <p>
       <span class="inline">{{ truncatedText }}</span>
       <template v-if="overflowText">
-        <UButton v-if="!open" @click="open = true" variant="text" class="text-burnt-orange-500 inline py-0 pl-1 pr-0">
+        <UButton
+          v-if="!open"
+          @click="open = true"
+          variant="text"
+          class="text-burnt-orange-500 inline py-0 pl-1 pr-0 cursor-pointer"
+        >
           Read more
         </UButton>
         <span v-if="open" class="inline">{{ overflowText }}</span>
-        <UButton v-if="open" @click="open = false" variant="text" class="text-burnt-orange-500 inline py-0 pl-1 pr-0">
-          Less</UButton
+        <UButton
+          v-if="open"
+          @click="open = false"
+          variant="text"
+          class="text-burnt-orange-500 inline py-0 pl-1 pr-0 cursor-pointer"
         >
+          Less
+        </UButton>
       </template>
     </p>
   </UCard>
