@@ -67,7 +67,7 @@ const pageContent = [
     title: 'Eagle Project',
     imgSrc: '/img/Teenager/IMG_0345.JPG',
     imgAlt: "Connor and Alex cutting wood for Alex's eagle project",
-    text: "We were told that most kids that have this cancer live fore about a year. Well, what can we say. Alex is unique and this wasn't the case. He filled our lives with memories and miracles. There was a ton of support for Alex. It was overwhelming to watch. He started radiation right away and he said that it was a piece of cake compared to the surgery, he just felt tired. During his radiation treatments Alex finished his eagle project (repaired fences at This Is The Place state park).",
+    text: "We were told that most kids that have this cancer live for about a year. Well, what can we say. Alex is unique and this wasn't the case. He filled our lives with memories and miracles. There was a ton of support for Alex. It was overwhelming to watch. He started radiation right away and he said that it was a piece of cake compared to the surgery, he just felt tired. During his radiation treatments Alex finished his eagle project (repaired fences at This Is The Place state park).",
   },
   {
     title: 'Make A Wish',
