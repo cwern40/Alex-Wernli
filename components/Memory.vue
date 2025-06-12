@@ -42,13 +42,13 @@ const open = ref(false);
 const truncatedText = computed(() => {
   const text = props.memory.paragraphs.join('\n');
   const elipses = open.value ? '' : '...';
-  return text.length > 650 ? text.slice(0, 600) + elipses : text;
+  return text.length > 700 ? text.slice(0, 650) + elipses : text;
 });
 
 const overflowText = computed(() => {
   const text = props.memory.paragraphs.join('\n');
-  if (text.length <= 650) return '';
-  return text.slice(600);
+  if (text.length <= 700) return '';
+  return text.slice(650);
 });
 </script>
 
