@@ -85,7 +85,7 @@ const pageContent = [
     title: 'Texas Trip',
     imgSrc: '/img/Texas Trip/IMG_4201.JPG',
     imgAlt: 'Alex, mom, dad, and Josh with the Texas footbal team',
-    text: 'In November of 2009, thanks to his aunt Terri and JetBlue, he had the chance to go to Texas, meet the team, and get a tour of the facility. During the team practice Colt McCoy took him in to break the huddle. He got many gifts from the team including a signed jersey and football. He had a constant smile on this trip.',
+    text: 'In November of 2009, thanks to his Aunt Terri and JetBlue, he had the chance to go to Texas, meet the team, and get a tour of the facility. During the team practice Colt McCoy took him in to break the huddle. He got many gifts from the team including a signed jersey and football. He had a constant smile on this trip.',
   },
   {
     title: 'Movie Nights',
