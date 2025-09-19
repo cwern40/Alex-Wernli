@@ -30,7 +30,7 @@ export default defineNuxtConfig({
   },
   nodemailer: {
     from: '"Alex Wernli Memorial Site" <contact@alexwernlimemorial.com>',
-    host: 'smtp.sendgrid.net',
+    host: 'smtp.mailersend.net',
     port: 587,
     secure: false,
     auth: {

@@ -24,13 +24,15 @@ export default defineEventHandler(async (event) => {
     );
   }
 
-  sendMail(params)
-    .then(() => {
-      console.log('Email sent successfully!');
-    })
-    .catch((error) => {
-      console.error('Error sending email:', error);
-    });
+  let result = false;
 
-  return { success: true };
+  try {
+    await sendMail(params);
+    result = true;
+  } catch (error) {
+    console.error('Error sending email:', error);
+    result = false;
+  }
+
+  return { success: result };
 });
