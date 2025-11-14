@@ -136,6 +136,9 @@ const handleEnter = (entries) => {
     if (entry.isIntersecting) {
       entry.target.classList.add('opacity-100', 'translate-y-0');
       entry.target.classList.remove('opacity-0', 'translate-y-20');
+    } else if (entry.boundingClientRect.top > 0) {
+      entry.target.classList.remove('opacity-100', 'translate-y-0');
+      entry.target.classList.add('opacity-0', 'translate-y-20');
     }
   });
 };
@@ -162,6 +165,6 @@ if (import.meta.server) {
 
 useSeoMeta({
   title: "Alex's Life Story",
-  ogtitle: "Alex's Life Story",
+  ogTitle: "Alex's Life Story",
 });
 </script>

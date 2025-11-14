@@ -23,6 +23,6 @@ if (import.meta.server) {
 
 useSeoMeta({
   title: 'Memories of Alex Wernli',
-  ogtitle: 'Memories of Alex Wernli',
+  ogTitle: 'Memories of Alex Wernli',
 });
 </script>

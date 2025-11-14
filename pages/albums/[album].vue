@@ -96,7 +96,7 @@ if (import.meta.server) {
 
 useSeoMeta({
   title: () => album?.value?.title ?? '',
-  ogtitle: () => album?.value?.title ?? '',
+  ogTitle: () => album?.value?.title ?? '',
   ogImage: () => `https://alexwernlimemorial.com/${album?.value?.photos?.[0]?.src ?? ''}`,
   url: () => `https://alexwernlimemorial.com/albums/${route.params.album}`,
 });

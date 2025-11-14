@@ -1,8 +1,8 @@
 <template>
   <header
     :class="[
-      'flex justify-between items-center py-4 px-4 sm:px-8 bg-burnt-orange-500 transition-transform duration-300 z-50 w-full',
-      isScrollingUp ? 'sticky top-0' : 'static',
+      'flex justify-between items-center py-4 px-4 sm:px-8 bg-burnt-orange-500 transition-transform duration-300 z-50 w-full fixed top-0 left-0',
+      isScrollingUp || menuOpen ? 'translate-y-0' : '-translate-y-full',
     ]"
   >
     <USlideover v-model:open="menuOpen" side="left" class="block sm:hidden">
@@ -17,6 +17,11 @@
 
       <template #content>
         <div class="bg-burnt-orange-500 h-full p-8 flex flex-col items-center">
+          <VisuallyHidden>
+            <DialogTitle>Mobile Navigation Menu</DialogTitle>
+            <DialogDescription>Links to life story, albums, obituary, and memories</DialogDescription>
+          </VisuallyHidden>
+
           <div class="flex justify-between items-center w-full mb-4">
             <ULink to="/albums/texas-trip" @click="menuOpen = false">
               <NuxtImg src="/img/texas-longhorns-2-logo-black-and-white.png" alt="Logo" height="30" width="30" />
@@ -55,6 +60,8 @@
 </template>
 
 <script setup>
+import { DialogTitle, DialogDescription, VisuallyHidden } from 'reka-ui';
+
 const menuOpen = ref(false);
 const isScrollingUp = ref(true);
 let lastScrollY = 0;
@@ -69,7 +76,7 @@ const handleScroll = () => {
 
 onMounted(() => {
   if (typeof window !== 'undefined') {
-    lastScrollY = window.scrollY; // Initialize lastScrollY after mounting
+    lastScrollY = window.scrollY;
     window.addEventListener('scroll', handleScroll);
   }
 });

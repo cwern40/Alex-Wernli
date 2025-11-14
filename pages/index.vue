@@ -26,6 +26,6 @@ if (import.meta.server) {
 
 useSeoMeta({
   title: "Alex Wernli's Memorial",
-  ogtitle: "Alex Wernli's Memorial",
+  ogTitle: "Alex Wernli's Memorial",
 });
 </script>
