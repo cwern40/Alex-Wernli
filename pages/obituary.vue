@@ -61,6 +61,6 @@ if (import.meta.server) {
 
 useSeoMeta({
   title: "Alex Wernli's Obituary",
-  ogtitle: "Alex Wernli's Obituary",
+  ogTitle: "Alex Wernli's Obituary",
 });
 </script>

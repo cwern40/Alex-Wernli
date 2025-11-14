@@ -201,6 +201,6 @@ if (import.meta.server) {
 
 useSeoMeta({
   title: 'Share Your Memories',
-  ogtitle: 'Share Your Memories',
+  ogTitle: 'Share Your Memories',
 });
 </script>

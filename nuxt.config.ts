@@ -18,7 +18,6 @@ export default defineNuxtConfig({
     preference: 'light',
   },
   image: {
-    provider: 'ipx',
     ipx: {
       maxAge: 60 * 60 * 24 * 365, // 1 year
     },
@@ -39,6 +38,12 @@ export default defineNuxtConfig({
     },
   },
   routeRules: {
+    '/_ipx/**': {
+      headers: {
+        // Cache for 1 year (31536000 seconds), allow stale-while-revalidate
+        'cache-control': 'public, max-age=31536000, immutable',
+      },
+    },
     '/': {
       prerender: true,
       headers: { 'Cache-Control': 'max-age=86400, stale-while-revalidate=608400, s-maxage=86400, immutable, public' },
